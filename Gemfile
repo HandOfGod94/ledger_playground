@@ -6,7 +6,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.1.2'
 
 gem 'bootsnap', require: false
-gem 'double_entry', '2.0.0.beta5'
+gem 'double_entry', '~> 2.0.0.beta5'
+gem 'money', '~> 6.16'
+gem 'money-rails', '~> 1.15'
 gem 'puma', '~> 5.0'
 gem 'rails', '~> 7.0.7'
 gem 'sqlite3', '~> 1.4'
