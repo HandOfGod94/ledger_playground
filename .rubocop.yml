@@ -1,0 +1,15 @@
+AllCops:
+    NewCops: enable
+
+Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  AllowedMethods: ['describe', 'it']
+
+Layout/HashAlignment:
+  EnforcedColonStyle: table
+
+FrozenStringLiteralComment:
+  Enabled: false
+
