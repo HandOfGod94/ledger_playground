@@ -7,7 +7,7 @@ ruby '3.1.2'
 
 gem 'after_commit_everywhere', '~> 1.3', '>= 1.3.1'
 gem 'bootsnap', require: false
-gem 'double_entry', '~> 2.0.0.beta5'
+gem 'double_entry', github: 'envato/double_entry', ref: '144e824'
 gem 'money', '~> 6.16'
 gem 'money-rails', '~> 1.15'
 gem 'puma', '~> 5.0'

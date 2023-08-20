@@ -11,3 +11,5 @@ User.create([{ name: 'Gahan', department: engineering }, { name: 'Dave', departm
 
 hr = Department.create(name: 'HR')
 User.create([{ name: 'John', department: hr }, { name: 'Alice', department: hr }])
+
+Vendor.create([{ name: 'Apple' }, { name: 'Google' }, { name: 'Microsoft' }])
