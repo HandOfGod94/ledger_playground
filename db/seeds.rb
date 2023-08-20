@@ -6,5 +6,8 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-department = Department.create(name: 'Engineering')
-User.create([{ name: 'Gahan', department: }, { name: 'Dave', department: }])
+engineering = Department.create(name: 'Engineering')
+User.create([{ name: 'Gahan', department: engineering }, { name: 'Dave', department: engineering }])
+
+hr = Department.create(name: 'HR')
+User.create([{ name: 'John', department: hr }, { name: 'Alice', department: hr }])
